@@ -176,7 +176,7 @@ class Image(Evaluator):
             else:
                 val = metric_func(pred, target).mean().item()
                 metric_dict[metric_name] = val
-                self.metric_state[metric_name] += val
+                self.metric_state[metric_name].append(val)
         return metric_dict
 
 def fwi_norm(x):
