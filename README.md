@@ -1,3 +1,19 @@
+# Text-Contitioned Inverse Problems
+
+This repository investigates how text conditioning in latent diffusion priors
+affects reconstruction quality for image inverse problems. We extend
+LatentDAPS with Stable Diffusion as the prior.
+
+**Status:** Work in progress.
+
+## Relation to InverseBench
+
+This project is built on top of [InverseBench](https://github.com/devzhk/InverseBench)
+(Zheng et al., ICLR 2025), which provides the evaluation framework, algorithm
+abstractions, and several reference implementations we build on.
+
+The original InverseBench code is preserved at the `upstream-baseline` tag.
+The original README follows below.
 
 ![](assets/logo.png)
 
